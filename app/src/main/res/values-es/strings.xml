@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Atividade03</string>
+    <string name="conceder">Conceder permiso</string>
+    <string name="ativar">Habilitar GPS </string>
+    <string name="desativar">Desactivar GPS</string>
+    <string name="iniciar">Iniciar ruta</string>
+    <string name="finalizar">Finalizar ruta</string>
+    <string name="queprocura">¿Qué buscas?</string>
+    <string name="distanciapercorrida">Distância recorrida</string>
+    <string name="tempo">Tiempo recorrido</string>
+    <string name="semgps">Sin GPS</string>
+    <string name="concedapermissao">Por favor, ortogue permiso</string>
+    <string name="gpsdesativado"> GPS ya deshabilitado</string>
+    <string name="precisaativarGPS">Por favor, active el GPS </string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Atividade03</string>
+    <string name="conceder">Berechtigung erteilen</string>
+    <string name="ativar">GPS aktivieren </string>
+    <string name="desativar"> GPS deaktivieren</string>
+    <string name="iniciar">Route starten</string>
+    <string name="finalizar">Route beenden</string>
+    <string name="queprocura">Wonach suchen Sie?</string>
+    <string name="distanciapercorrida">Zurückgelegte Strecke</string>
+    <string name="tempo">Laufzeit</string>
+    <string name="semgps">Ohne GPS</string>
+    <string name="concedapermissao">Bitte erteilen Sie die Erlaubnis </string>
+    <string name="gpsdesativado"> GPS bereits deaktiviert</string>
+    <string name="precisaativarGPS"> Bitte aktivieren Sie GPS</string>
+</resources>

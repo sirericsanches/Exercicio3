@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:rowCount="8"
+    android:columnCount="2"
+    android:useDefaultMargins="true"
+    android:background="@color/colorPrimary"
+    >
+
+    <Button
+        android:id="@+id/condecederPermisaoButton"
+        android:layout_width="340sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_columnSpan="2"
+        android:layout_marginEnd="20sp"
+        android:layout_marginStart="30sp"
+        android:textColor="#ffffff"
+        android:text="@string/conceder"
+        android:background="@drawable/buttonmain"/>
+
+    <Button
+        android:id="@+id/ativarGPSButton"
+        android:layout_width="170sp"
+        android:layout_height="50sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginStart="30sp"
+        android:text="@string/ativar"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_radius"
+        />
+
+    <Button
+        android:id="@+id/desativarGPSButton"
+        android:layout_width="170sp"
+        android:layout_height="50sp"
+        android:text="@string/desativar"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_radius"
+        />
+
+    <Button
+        android:id="@+id/iniciarPercursoButton"
+        android:layout_width="170sp"
+        android:layout_height="50sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginStart="30sp"
+        android:text="@string/iniciar"
+        android:background="@drawable/botaopercurso"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/terminarPercursoButton"
+        android:layout_width="170sp"
+        android:layout_height="50dp"
+        android:text="@string/finalizar"
+        android:background="@drawable/botaopercurso"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/distanciaTextView"
+        android:layout_width="113dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="20sp"
+        android:fontFamily="monospace"
+        android:text="@string/distanciapercorrida"
+        android:textColor="#1B5E20"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/distanciaInputTextView"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:textColor="#1B5E20"
+        android:text="0.0 KM" />
+
+    <TextView
+        android:id="@+id/tempoTextView"
+        android:layout_width="113dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="20sp"
+        android:fontFamily="monospace"
+        android:text="@string/tempo"
+        android:textColor="#1B5E20"
+        android:textStyle="bold" />
+
+    <Chronometer
+        android:id="@+id/tempoPercorridoChronometer"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:textColor="#1B5E20"
+        android:layout_gravity="center_vertical" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginStart="30sp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/procurarInputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/queprocura"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/procurarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="20sp"
+        android:backgroundTint="#1B5E20"
+        android:layout_marginStart="30sp"
+        android:layout_row="5"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+
+</GridLayout>
